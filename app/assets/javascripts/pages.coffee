@@ -41,43 +41,7 @@ $(document).ready ->
    .comment  { color: #{_colors.dark}; }
   
 
-  /* html */
 
-  ul
-    li.item  een
-    li.item  twee
-    li.item  drie
-
-  ul li  { ... }
-
-
-  /* css higher order */
-
-  ul li  { ... }
-       VS
-  .item  { ... }
-
-
-  /* voorbeeld */
-  
-  button.btn-primary
-
-  .btn-primary { ... }
-
-
-  /* !important */
-
-  button.btn-primary
-
-  .btn-primary { ... !important }
-
-
-  /* ga een laag hoger  */
-  
-  div#contact_us
-    button.btn-primary
-  
-  #contact_us .btn-primary { ... }
   
 
   /* Fancy pls */
@@ -209,102 +173,6 @@ $(document).ready ->
   @media printer { .reclame { display: none; } }
 
 
-
-  /*
-   * Dit is toch alles meer heb ik niet nodig ???
-   */
-
-  display: flex;
-  
-
-  /* support */
-
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-
-
-  /* bijna */
-
-  display: -webkit-box;
-
-
-
-
-
-  /*
-   * CSS Precompilers
-   */
-
-   1 /  sCSS
-   2 /  SASS
-   3 /  LESS
-   4 /  Stylus
-
-
-
-   /* 
-    * Hack
-    */
-
-    PurifyCSS
-    PostCSS
-  
-
-
-  /*
-   * sCSS
-   */
-
-  $panche_red: rgb(203,0,0);
-
-  ul {
-    list-style: none;
-
-    li { 
-      a {
-        color: $panche_red;
-      }
-    }
-  }
-
-
-
-  /*
-   * SASS
-   */
-
-  $panche_red: rgb(203,0,0)
-
-  ul
-    list-style: none
-
-    li 
-      a
-        color: $panche_red
-
-  
-       
-  /* en verder */
-
-  ./css/style.scss 
-  ./css/_home.scss
-
-
-
-  /* style.scss */
-
-  @import "home";
-
-
-
-  /* Waar is de css? */
-
-  style.scss  -->  style.css
-                   style.min.css
-                   style.css.map
- 
-
   /* 
    * Voorbeeld: bootstrap 
    */
@@ -365,31 +233,15 @@ $(document).ready ->
 
 
 
-  /* sCSS ??? */
-
-  1 /  variable  
-  2 /  loops
-  3 /  mixins
-
-
-  /* sCSS ??? */
-
-  __
-  --
-
-
   /* En nog wat tips & tricks om het af te sluiten */
   
-  0 /  Gebruik een css framework
+  0 /  Gebruik een css framework  bootstrap 3
   1 /  :after {}
   2 /  CanIUse
   3 /  css render speed
   4 /  calc()
   5 /  !important
 
-
-
-  /* Bedankt voor het luisteren */
 
 
   """
